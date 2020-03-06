@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/new/new",
+    "pages/hot/hot",
+    "pages/detail/detail",
+    "pages/info/info",
+    "pages/newlist/newlist",
+    "pages/moreList/moreList",
+    "pages/channel/channel",
+    "pages/leftlist/leftlist",
+    "pages/picture/picture",
+    "pages/live/live"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF80AB",
+    "backgroundColor": "#EFEFEF"
+  },
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#FF80AB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index-0.png",
+        "selectedIconPath": "static/index-1.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "iconPath": "static/hot-0.png",
+        "selectedIconPath": "static/hot-1.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/center-0.png",
+        "selectedIconPath": "static/center-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap37.json"
+}

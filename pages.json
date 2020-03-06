@@ -1,0 +1,144 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "直播",
+               "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path" : "pages/center/center",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/new/new",
+            "style" : {
+                "navigationBarTitleText" : "新闻",
+                "enablePullDownRefresh" : true
+            }
+        },
+		{
+		    "path" : "pages/hot/hot",
+		    "style" : {
+		        "navigationBarTitleText" : "推荐",
+		        "enablePullDownRefresh" : true
+		    }
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#000000",
+				"backgroundColor": "#000000",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"buttons": [{
+								"type": "share"
+							},
+							{
+								"type": "favorite"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/info/info",
+            "style" : {}
+        },
+        {
+            "path" : "pages/newlist/newlist",
+            "style" : {
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/moreList/moreList",
+            "style" : {
+                "navigationBarTitleText" : "新闻"
+            }
+        },
+		{
+		    "path" : "pages/channel/channel",
+		    "style" : {
+		        "navigationBarTitleText" : "频道"
+		    }
+		},
+        {
+            "path" : "pages/leftlist/leftlist",
+            "style" : {
+                "navigationBarTitleText" : "新闻",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/picture/picture",
+            "style" : {
+				 "navigationBarTitleText" : "图片",
+				 "enablePullDownRefresh" : true
+			}
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        //"navigationBarTitleText" : "看图",
+        "navigationBarBackgroundColor" : "#FF80AB",
+        "backgroundColor" : "#EFEFEF"
+    },
+    "tabBar" : {
+        "color" : "#444444",
+        "selectedColor" : "#FF80AB",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/index-0.png",
+                "selectedIconPath" : "static/index-1.png",
+                "text" : "主页"
+            },
+			{
+			    "pagePath" : "pages/hot/hot",
+				"iconPath" : "static/hot-0.png",
+				"selectedIconPath" : "static/hot-1.png",
+				"text" : "推荐"
+			},
+            {
+                "pagePath" : "pages/center/center",
+                "iconPath" : "static/center-0.png",
+                "selectedIconPath" : "static/center-1.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}
+//     "condition" : {
+//         //模式配置，仅开发期间生效
+//         "current" : 0, //当前激活的模式（list的索引）
+//         "list" : [
+//             {
+//                 "name" : "最新", //模式名称
+//                 "path" : "pages/newlist/newlist", //启动页面，必选
+//                 "query" : "0" //启动参数，在页面的onload函数里面得到
+//             }
+//         ]
+//     }
+

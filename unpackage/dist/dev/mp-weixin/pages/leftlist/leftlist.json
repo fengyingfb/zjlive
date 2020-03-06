@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新闻",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more"
+  }
+}
